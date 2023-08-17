@@ -120,7 +120,7 @@
         box-shadow: 4px 8px 10px black;
 
       }
-      @media screen and (min-width:300px) and (max-width: 990px){
+      @media screen and (min-width:600px) and (max-width: 990px){
         .marque{
             height: 230px;
         }
@@ -131,11 +131,36 @@
         }
        
       }
+      @media screen and (min-width:300px) and (max-width: 600px)
+      {
+        .flex-box
+        {
+          height: 110px;
+          width: 160px;
+          margin: 0 10px 10px 30px;
+
+        }
+        .marque{
+          height: 180px;
+          width: 100%;
+          justify-content: space-around;
+          display: flex;
+          
+        }
+        .marque-img{
+          height: 120px;
+          width: 160px;
+          padding: 20px;
+          border-radius: 10px;
+        }
+      }
+
+      
       .quote-container{
         height: 450px;
         width: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: right;
         background-color: #99ffbb;
       }
       .quote-box{
@@ -158,6 +183,9 @@
         box-shadow: 4px 8px 10px green;
 
       }
+      .img-min{
+        margin-left: -30px;
+      }
       @media screen and (min-width:300px) and (max-width: 990px){
         .quote-container
         {
@@ -175,14 +203,34 @@
             width: 200px;
         }
       }
+      @media screen and (min-width:300px) and (max-width: 600px)
+      {
+        .quote-container{
+          height: 200px;
+          width: 100%;
+
+        }
+        .quote-box{
+          height: 200px;
+          width: 180px;
+          justify-content: center;
+        }
+        .qoute-img{
+          height: 130px;
+          width: 170px;
+          justify-content: center;
+        }
+      }
 
       .h2{
-        background: linear-gradient( );
+        background: linear-gradient(#00994d,#99ff99,#66ff66,#00994d);
+        
         height: 100px;
         margin-top: 100px;
         
       }
       .q-text {
-        color: antiquewhite;
+        color: #006600 ;
         text-align: center;
+        font-size: px;
       }
