@@ -115,6 +115,11 @@
         cursor: pointer;
 
       }
+      .marque-img:hover{
+        border-radius: 30px;
+        box-shadow: 4px 8px 10px green;
+
+      }
       @media screen and (min-width:300px) and (max-width: 990px){
         .marque{
             height: 230px;
