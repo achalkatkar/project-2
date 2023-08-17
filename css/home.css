@@ -57,14 +57,14 @@
     
   }
   .flex-container
-      {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-      }
+  {
+     width: 100%;
+    height: auto;
+     display: flex;
+    flex-direction: row;
+     flex-wrap: wrap;
+    justify-content: space-around;
+  }
       .flex-circle{
         width: 175px;
         height: 175px;
@@ -117,7 +117,7 @@
       }
       .marque-img:hover{
         border-radius: 30px;
-        box-shadow: 4px 8px 10px green;
+        box-shadow: 4px 8px 10px black;
 
       }
       @media screen and (min-width:300px) and (max-width: 990px){
@@ -174,4 +174,15 @@
             height: 160px;
             width: 200px;
         }
+      }
+
+      .h2{
+        background: linear-gradient( );
+        height: 100px;
+        margin-top: 100px;
+        
+      }
+      .q-text {
+        color: antiquewhite;
+        text-align: center;
       }
