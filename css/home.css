@@ -79,4 +79,8 @@
       }
       h1{
         font-size: 20px;
+        color: #006600;
+      }
+      a{
+        text-decoration: none;
       }
