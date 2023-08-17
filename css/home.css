@@ -117,3 +117,16 @@
             padding: 10px;
         }
       }
+      .quote-container{
+        height: 450px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+      }
+      .quote-box{
+        height:350px;
+        width: 500px;
+        border: 3px solid black;
+        border-radius: 20px;
+
+      }
