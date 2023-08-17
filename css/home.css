@@ -33,9 +33,7 @@
     border-radius: 50%;
     height: 130px;
   }
-  .container{
-    background-color: aquamarine;
-  }
+  
   @media screen and (min-width:300px) and (max-width: 990px)
   {
     .pol-img{
@@ -116,21 +114,41 @@
             width: 200px;
             padding: 10px;
         }
+       
       }
       .quote-container{
         height: 450px;
         width: 100%;
         display: flex;
         justify-content: space-around;
+        background-color: #99ffbb;
       }
       .quote-box{
         height:350px;
         width: 450px;
         border-radius: 20px;
+        right: 10px;
 
       }
       .qoute-img{
         height: 330px;
         width: 430px;
         border-radius: 20px;
+      }
+      @media screen and (min-width:300px) and (max-width: 990px){
+        .quote-container
+        {
+            height: 250px;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .quote-box{
+            height: 250px;
+            width: 200px;
+        }
+        .qoute-img{
+            height: 160px;
+            width: 200px;
+        }
       }
