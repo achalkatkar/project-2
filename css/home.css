@@ -87,11 +87,12 @@
         text-align: center;
       }
       .marque{
-        height: 350px;
+        height: 330px;
         width: 100%;
         display: flex;
         justify-content: space-around;
         background-color: #ccffcc;
+        border-radius: 10px;
       }
       .flex-box{
         height: 250px;
@@ -108,7 +109,7 @@
       }
       @media screen and (min-width:300px) and (max-width: 990px){
         .marque{
-            height: 250px;
+            height: 230px;
         }
         .marque-img{
             height: 150px;
