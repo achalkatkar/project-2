@@ -46,10 +46,7 @@
       flex-direction:row;
       justify-content: space-around;
 
-    }
-    
-    
-    
+    } 
     
   }
   .flex-container
@@ -104,8 +101,18 @@
 
       }
       .marque-img{
-        height: 250px;
+        height: 230px;
         width: 400px;
         border-radius: 20px;
 
+      }
+      @media screen and (min-width:300px) and (max-width: 990px){
+        .marque{
+            height: 250px;
+        }
+        .marque-img{
+            height: 150px;
+            width: 200px;
+            padding: 10px;
+        }
       }
