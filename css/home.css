@@ -47,11 +47,7 @@
       justify-content: space-around;
 
     }
-    .flex-img{
-        margin: 30px;
-        height: 80px;
-        width: 200px;
-    }
+    
     
     
     
@@ -84,7 +80,7 @@
       }
       h1{
         font-size: 20px;
-        color: #006600;
+        color: #284d00;;
       }
       a{
         text-decoration: none;
@@ -98,6 +94,7 @@
         width: 100%;
         display: flex;
         justify-content: space-around;
+        background-color: #ccffcc;
       }
       .flex-box{
         height: 250px;
