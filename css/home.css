@@ -47,6 +47,11 @@
       justify-content: space-around;
 
     }
+    .flex-img{
+        margin: 30px;
+        height: 80px;
+        width: 200px;
+    }
     
     
     
@@ -83,4 +88,27 @@
       }
       a{
         text-decoration: none;
+      }
+      .text{
+        
+        text-align: center;
+      }
+      .marque{
+        height: 350px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+      }
+      .flex-box{
+        height: 250px;
+        width: 400px;
+        border: 3px solid black;
+        text-align: center;
+        border-radius: 20px;
+
+      }
+      .marque-img{
+        height: 250px;
+        width: 400px;
+
       }
