@@ -1,0 +1,79 @@
+.back{
+    background-color: #99ff99;
+  }
+  .logo
+  {
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: 4px 6px 8px black;
+  }
+  .heading
+  {
+    display: flex;
+
+  }
+  .pollution{
+    font-size: 70px;
+    color: #006600;
+    text-shadow: 5px 7px 9px black;
+
+  }
+  @media screen and (min-width:300px) and (max-width: 990px){
+    .pollution{
+      font-size: 40px;
+      
+
+    }
+    .logo{
+      height: 50px;
+    }
+    
+  }
+  .pol-img{
+    border-radius: 50%;
+    height: 130px;
+  }
+  .container{
+    background-color: aquamarine;
+  }
+  @media screen and (min-width:300px) and (max-width: 990px)
+  {
+    .pol-img{
+      height: 60px;
+    }
+    .sub-container{
+      display: flex;
+      flex-direction:row;
+      justify-content: space-around;
+
+    }
+    
+    
+    
+  }
+  .flex-container
+      {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .flex-circle{
+        width: 175px;
+        height: 175px;
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        line-height: 200px;
+        border-radius: 50%;
+        margin: 10px;
+        
+      }
+      .circle-img{
+        height: 170px;
+        width: 170px;
+        border-radius: 50%;
+        box-shadow: 5px 6px 8px green;
+      }
