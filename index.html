@@ -14,7 +14,7 @@
   
 </head>
 <body class="back">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+    <nav class="navbar navbar-expand-lg nav-bar ">
         <div class="container-fluid bg-success fs-4">
           
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,13 +26,13 @@
                     <a class="nav-link " href="./index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About </a>
+                    <a class="nav-link" href="./pages/about.html">About </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Cause </a>
+                    <a class="nav-link" href="./pages/cause.html">Cause </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link " href="#">Solution</a>
+                    <a class="nav-link " href="./pages/Solution.html">Solution</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link " href="#">Contact</a>
@@ -51,9 +51,13 @@
       <h1 class="mt-3 pollution"> ENVIRONMENTAL POLLUTION</h1>
     </div>
 
+    <div class="background-container mt-5">
+      <img src="./images/background.jpg" class="background-img" id="back-img" >
+    </div>
+
     <div class="flex-container">
       <div class="flex-circle mt-5">
-        <a href="./pages/air pollution.html"><img src="./pages/air-pollution.png" class="circle-img"> <span><h1>Air Pollution</h1></span></a>
+        <a href="./pages/air-pollution.html" target="_blank"><img src="./pages/air-pollution.png" class="circle-img"> <span><h1>Air Pollution</h1></span></a>
         
       </div>
 
@@ -79,13 +83,19 @@
 
     </div>
 
-    <p class=" text mt-5 p-5 m-3 pt-5 fs-3">The Enviromnent is the surrounding of an organism. The environmnet in which an organism lives is made 
+    
+      <div class="h2 ">
+        <h1 class=" q-text mt-4 p-4 fs-1 ">"Stop Pollution is the Best Solution "</h1>
+      </div>
+   
+
+    <p class=" text mt-3 p-5 m-3 pt-5 fs-3">The Enviromnent is the surrounding of an organism. The environmnet in which an organism lives is made 
       up of various component like air, water, soil, plastic, etc. These component are found in fixed proportions to create 
       a harmonious balance in the environment for the organism to live in. Any kind of undesirable and unwanted changes
        in the proportions of these components can be termed as pollution.
     </p>
 
-    <marquee > 
+    <marquee> 
       <div class=" marque m-3 p-3 mt-5">
         <div class="flex-box m-3 mt-3 p-3"><img src="./images/air-m-1.jpeg" class="marque-img"></div>
         <div class="flex-box m-3 mt-3 p-3 "><img src="./images/air-m-2.jpeg" class="marque-img"></div>
@@ -94,12 +104,7 @@
       </div>
     </marquee>
 
-    <div class=" quote-container  m-3">
-      <div class="quote-box m-3 p-4"><img src="./images/pol-1.jpg" class="qoute-img"></div>
-      <div class="quote-box m-3 p-4"><img src="./images/pol-2.jpeg" class="qoute-img"></div>
-      <div class="quote-box m-3 p-4"><img src="./images/pol-3.jpeg" class="qoute-img"></div>
-
-    </div>
+    
       
 
 
@@ -108,7 +113,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 
      crossorigin="anonymous"
-     ></script>
+     >
+
+    
+      let images = document.getElementById('back-img')
+      let images = ['./images/background-1.jog' , './images/background-2.jpg' , './images/plasctic-1.jpg']
+
+      setInterval(function()
+      {
+        let random = Math.floor(Math.random() * 3);
+        image.src = images[random];
+      })
+        
+
+    
+    
+    </script>
   
 </body>
 </html>
