@@ -7,6 +7,12 @@
     align-items: center;
     background: #a0e87d;
   }
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
   
   .slider{
     height: 100px;
@@ -118,9 +124,10 @@
     margin: 0;
     padding: 0;
     background-color: green;
-    height: 50px;
+    height: 60px;
     font-size: 20px;
   }
+ 
   .logo
   {
     height: 90px;
@@ -135,7 +142,7 @@
   .pollution{
     font-size: 70px;
     color: #006600;
-    text-shadow: 5px 7px 9px black;
+    text-shadow: 3px 4px 5px black;
 
   }
   @media screen and (min-width:500px) and (max-width: 990px){
@@ -168,14 +175,14 @@
     
   }
   .flex-container
-      {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-      }
+  {
+     width: 100%;
+    height: auto;
+     display: flex;
+    flex-direction: row;
+     flex-wrap: wrap;
+    justify-content: space-around;
+  }
       .flex-circle{
         width: 175px;
         height: 175px;
@@ -226,7 +233,12 @@
         cursor: pointer;
 
       }
-      @media screen and (min-width:300px) and (max-width: 990px){
+      .marque-img:hover{
+        border-radius: 30px;
+        box-shadow: 4px 8px 10px black;
+
+      }
+      @media screen and (min-width:600px) and (max-width: 990px){
         .marque{
             height: 230px;
         }
@@ -237,11 +249,36 @@
         }
        
       }
+      @media screen and (min-width:300px) and (max-width: 600px)
+      {
+        .flex-box
+        {
+          height: 110px;
+          width: 160px;
+          margin: 0 10px 10px 30px;
+
+        }
+        .marque{
+          height: 180px;
+          width: 100%;
+          justify-content: space-around;
+          display: flex;
+          
+        }
+        .marque-img{
+          height: 120px;
+          width: 160px;
+          padding: 20px;
+          border-radius: 10px;
+        }
+      }
+
+      
       .quote-container{
         height: 450px;
         width: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: right;
         background-color: #99ffbb;
       }
       .quote-box{
@@ -256,6 +293,16 @@
         width: 430px;
         border-radius: 20px;
         cursor: pointer;
+        box-shadow: 4px 7px 9px black;
+
+      }
+      .qoute-img:hover{
+        border-radius: 30px;
+        box-shadow: 4px 8px 10px green;
+
+      }
+      .img-min{
+        margin-left: -30px;
       }
       @media screen and (min-width:300px) and (max-width: 990px){
         .quote-container
@@ -273,4 +320,49 @@
             height: 160px;
             width: 200px;
         }
+<<<<<<< HEAD
       } */
+=======
+      }
+      @media screen and (min-width:300px) and (max-width: 600px)
+      {
+        .quote-container{
+          height: 200px;
+          width: 100%;
+
+        }
+        .quote-box{
+          height: 200px;
+          width: 180px;
+          justify-content: center;
+        }
+        .qoute-img{
+          height: 130px;
+          width: 170px;
+          justify-content: center;
+        }
+      }
+
+      .h2{
+        background: linear-gradient(#00994d,#99ff99,#66ff66,#00994d);
+        
+        height: 100px;
+        margin-top: 100px;
+        
+      }
+      .q-text {
+        color: #006600 ;
+        text-align: center;
+        font-size: px;
+      }
+
+      .background-container{
+        width: 100%;
+        height: 650px;
+      }
+
+      .background-img{
+        width: 100%;
+        height: 600px;
+      }
+>>>>>>> 0ff6490888af827e3f8be94824e2ead2f47bbec4
