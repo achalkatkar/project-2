@@ -320,9 +320,6 @@
             height: 160px;
             width: 200px;
         }
-<<<<<<< HEAD
-      } */
-=======
       }
       @media screen and (min-width:300px) and (max-width: 600px)
       {
@@ -365,4 +362,3 @@
         width: 100%;
         height: 600px;
       }
->>>>>>> 0ff6490888af827e3f8be94824e2ead2f47bbec4
