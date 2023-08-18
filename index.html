@@ -52,21 +52,26 @@
     </div>
 
     <div class="background-container mt-5">
-      <img src="./images/background.jpg" class="background-img" id="back-img" >
+      <div class="background-img" >
+        <img src="./images/background.jpg" class="slide-img">
+      </div>
+
+      
+
     </div>
 
     <div class="flex-container">
       <div class="flex-circle mt-5">
-        <a href="./pages/air-pollution.html" target="_blank"><img src="./pages/air-pollution.png" class="circle-img"> <span><h1>Air Pollution</h1></span></a>
+        <a href="./pages/air-pollution.html" target="_blank"><img src="./images/air-1.jpeg" class="circle-img"> <span><h1>Air Pollution</h1></span></a>
         
       </div>
 
       <div class="flex-circle mt-5">
-        <a href="./pages/air pollution.html"><img src="./pages/Noise-pollution.jpg" class="circle-img"><span><h1>Noise Pollution</h1></span></a>
+        <a href="./pages/air pollution.html"><img src="./images/noise-1.jpeg" class="circle-img"><span><h1>Noise Pollution</h1></span></a>
       </div>
 
       <div class="flex-circle mt-5">
-        <a href="./pages/air pollution.html"><img src="./pages/plastic_pollution.webp" class="circle-img"><span><h1>Platic Pollution</h1></span></a>
+        <a href="./pages/plastic-pollution.html"><img src="./images/plastic-1.jpg" class="circle-img"><span><h1>Platic Pollution</h1></span></a>
       </div>
 
       <div class="flex-circle mt-5">
@@ -114,18 +119,8 @@
      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 
      crossorigin="anonymous"
      >
-
-    
-      let images = document.getElementById('back-img')
-      let images = ['./images/background-1.jog' , './images/background-2.jpg' , './images/plasctic-1.jpg']
-
-      setInterval(function()
-      {
-        let random = Math.floor(Math.random() * 3);
-        image.src = images[random];
-      })
         
-
+       
     
     
     </script>
