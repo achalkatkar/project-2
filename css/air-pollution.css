@@ -24,3 +24,16 @@ body{
 .text{
     text-align: center;
 }
+.sub-container{
+    margin: 10px;
+    padding: 5px;
+    
+
+}
+.card{
+    border: solid 3px green ;
+}
+.card-img{
+    width: 100%;
+    
+}
