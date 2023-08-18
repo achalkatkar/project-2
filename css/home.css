@@ -1,0 +1,165 @@
+.back{
+    background-color: #99ff99;
+   
+  }
+  
+  .nav{
+    margin: 0;
+    padding: 0;
+    background-color: green;
+    height: 50px;
+    font-size: 20px;
+  }
+  .logo
+  {
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: 4px 6px 8px black;
+  }
+  .heading
+  {
+    display: flex;
+
+  }
+  .pollution{
+    font-size: 70px;
+    color: #006600;
+    text-shadow: 5px 7px 9px black;
+
+  }
+  @media screen and (min-width:300px) and (max-width: 990px){
+    .pollution{
+      font-size: 40px;
+      
+
+    }
+    .logo{
+      height: 50px;
+    }
+    
+  }
+  .pol-img{
+    border-radius: 50%;
+    height: 130px;
+  }
+  
+  @media screen and (min-width:300px) and (max-width: 990px)
+  {
+    .pol-img{
+      height: 60px;
+    }
+    .sub-container{
+      display: flex;
+      flex-direction:row;
+      justify-content: space-around;
+
+    } 
+    
+  }
+  .flex-container
+      {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .flex-circle{
+        width: 175px;
+        height: 175px;
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        line-height: 200px;
+        border-radius: 50%;
+        margin: 10px;
+        
+      }
+      .circle-img{
+        height: 170px;
+        width: 170px;
+        border-radius: 50%;
+        box-shadow: 5px 6px 8px green;
+      }
+      h1{
+        font-size: 20px;
+        color: #284d00;;
+      }
+      a{
+        text-decoration: none;
+      }
+      .text{
+        
+        text-align: center;
+      }
+      .marque{
+        height: 330px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        background-color: #ccffcc;
+        border-radius: 10px;
+      }
+      .flex-box{
+        height: 250px;
+        width: 400px;
+        text-align: center;
+        border-radius: 20px;
+
+      }
+      .marque-img{
+        height: 230px;
+        width: 400px;
+        border-radius: 20px;
+        cursor: pointer;
+
+      }
+      @media screen and (min-width:300px) and (max-width: 990px){
+        .marque{
+            height: 230px;
+        }
+        .marque-img{
+            height: 150px;
+            width: 200px;
+            padding: 10px;
+        }
+       
+      }
+      .quote-container{
+        height: 450px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        background-color: #99ffbb;
+      }
+      .quote-box{
+        height:350px;
+        width: 450px;
+        border-radius: 20px;
+        right: 10px;
+
+      }
+      .qoute-img{
+        height: 330px;
+        width: 430px;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+      @media screen and (min-width:300px) and (max-width: 990px){
+        .quote-container
+        {
+            height: 250px;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .quote-box{
+            height: 250px;
+            width: 200px;
+        }
+        .qoute-img{
+            height: 160px;
+            width: 200px;
+        }
+      }
