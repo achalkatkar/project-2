@@ -359,3 +359,11 @@ input{
 background-color: rgb(29, 100, 29);
 
 }
+.horizontal-row{
+  margin-top: 40px;
+ }
+p
+{
+   margin: 10px;
+  color: white;
+  font-size: 15px;
