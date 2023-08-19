@@ -376,3 +376,11 @@ p
  .copyright{
   margin-top: 20px;
  }
+  /* responsive */
+  @media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+
+    }
+}
