@@ -187,10 +187,11 @@ body{
       a{
         text-decoration: none;
       }
-      .text{
+      .pollution-text{
         
         text-align: center;
         color: #006600;
+        font-size: 20px;
       }
       .marque{
         height: 330px;
