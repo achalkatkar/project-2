@@ -12,8 +12,10 @@
     border-radius: 30px;
     box-shadow: 2px 2px 10px 10px green;
 }
-@media screen and (min-width:300px) and (max-width:0px){
+@media screen and (min-width:300px) and (max-width:990px){
+    .parent{
 
+    }
 }
 .container{
     position: relative;
