@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif, 'Poppins';
 
   }
   
@@ -255,3 +256,15 @@
         height: 650px;
         
       }
+
+      /* add footer*/
+      .footer{
+        background-color: rgb(5, 26, 5);
+        padding: 70px 0;
+        height: 450px;
+        line-height: 1.5;
+    }
+    .footer-container{
+        max-width: 1170px;
+        margin: auto;
+    }
