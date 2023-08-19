@@ -17,8 +17,8 @@
 }
 .container{
     position: relative;
-    width: 300px;
     height: 200px;
+    width: 180x;
     border-radius: 10px;
     box-shadow:  0px 5px 20px green;
     background-color: #b8e7b8;
@@ -28,11 +28,13 @@
 }
 .imagebox{
     position: relative;
-    height: 100px;
-    width: 100px;
+    height: 170px;
+    width: 170px;
     transform: translateY(-80px);
     border-radius: 10px;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
 }
 .content{
     padding: 10px 20px;
@@ -47,4 +49,8 @@
 .container:hover .content {
     opacity: 1;
     transform: translateY(-70px);
+}
+.parent{
+    display: flex;
+    flex-direction: row;
 }
