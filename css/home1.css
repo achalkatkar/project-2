@@ -55,16 +55,10 @@ img {
  display: flex;
 }
 
-p{
-    font-size: medium;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-top: 20px;
-    color: #a0e87d;
-}
+
 
 .slider{
-    width: 800px;
+    width: 100%;
     height: 500px;
     border-radius: 10px;
     overflow: hidden;

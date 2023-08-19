@@ -9,6 +9,7 @@
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
     crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/home1.css">
     
 
     <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -55,9 +56,48 @@
     </div>
 
     <div class="background-container mt-5">
-      <div class="background-img" >
-        <img src="./images/background.jpg" class="slide-img">
-      </div>
+      
+
+        <div class="slider">
+          <div class="slides">
+            <!--radio buttons start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!--radio buttons end-->
+            <!--slide images start-->
+            <div class="slide first">
+              <img src="./images/Background.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="./images/Background2.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="./images/Background3.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="./images/Background4.jpg" alt="">
+            </div>
+            <!--slide images end-->
+            <!--automatic navigation start-->
+            <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+            </div>
+            <!--automatic navigation end-->
+          </div>
+          <!--manual navigation start-->
+          <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+          </div>
+          <!--manual navigation end-->
+        </div>
 
       
 
@@ -65,28 +105,28 @@
 
     <div class="flex-container">
       <div class="flex-circle mt-5">
-        <a href="./pages/air-pollution.html" target="_blank"><img src="./images/air-1.jpeg" class="circle-img"> <span><h1>Air Pollution</h1></span></a>
+        <a href="./pages/air-pollution.html" target="_blank"><img src="./images/air-1.jpeg" class="circle-img"> <span><h1 class="small-text">Air Pollution</h1></span></a>
         
       </div>
 
       <div class="flex-circle mt-5">
-        <a href="./pages/noise-polluton.html" target="_blank"><img src="./images/noise-1.jpeg" class="circle-img"><span><h1>Noise Pollution</h1></span></a>
+        <a href="./pages/noise-polluton.html" target="_blank"><img src="./images/noise-1.jpeg" class="circle-img"><span><h1 class="small-text">Noise Pollution</h1></span></a>
       </div>
 
       <div class="flex-circle mt-5">
-        <a href="./pages/plastic-pollution.html" target="_blank"><img src="./images/plastic-1.jpg" class="circle-img"><span><h1>Platic Pollution</h1></span></a>
+        <a href="./pages/plastic-pollution.html" target="_blank"><img src="./images/plastic-1.jpg" class="circle-img"><span><h1 class="small-text">Platic Pollution</h1></span></a>
       </div>
 
       <div class="flex-circle mt-5">
-        <a href="./pages/air pollution.html" target="_blank"><img src="./images/water-pollution.jpeg" class="circle-img"><span><h1>Water Pollution</h1></span></a>
+        <a href="./pages/air pollution.html" target="_blank"><img src="./images/water-pollution.jpeg" class="circle-img"><span><h1 >Water Pollution</h1></span></a>
       </div>
 
       <div class="flex-circle mt-5">
-        <a href="./pages/air pollution.html" target="_blank"><img src="./images/soil-1.jpeg" class="circle-img"><span><h1>Soil Pollution</h1></span></a>
+        <a href="./pages/air pollution.html" target="_blank"><img src="./images/soil-1.jpeg" class="circle-img"><span><h1 >Soil Pollution</h1></span></a>
       </div>
 
       <div class="flex-circle mt-5">
-        <a href="./pages/air pollution.html" target="_blank"><img src="./images/thermal.jpg" class="circle-img"><span><h1>Thermal Pollution</h1></span></a>
+        <a href="./pages/air pollution.html" target="_blank"><img src="./images/thermal.jpg" class="circle-img"><span><h1 >Thermal Pollution</h1></span></a>
       </div>
 
     </div>
@@ -192,6 +232,15 @@
      {
       alert("your email is send.");
      }
+
+     var counter = 1;
+      setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+          counter = 1;
+        }
+      }, 5000);
     
     </script>
   
