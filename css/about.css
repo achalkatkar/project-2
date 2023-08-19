@@ -17,9 +17,11 @@
 }
 .img-1{
     height: 200px;
-    width: 300px;
+    width: 370px;
     position: relative;
     border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .para{
@@ -27,9 +29,9 @@
     text-align: center;
 }
 .flexbox{
-    height: 180px;
-    width: 150px;
+    height: 250px;
+    width: 280px;
     background-color: #99ff99;
     border-radius: 10px;
-    border: 2px green;
+    border: 2px solid black;
 }
