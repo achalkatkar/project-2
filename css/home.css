@@ -349,3 +349,13 @@ input{
   border-radius: 30px;
   font-size: 20px;
   margin: 10px;
+  background-color: rgb(71, 219, 71);
+  border: none;
+  color: #fff;
+  margin-top: 20px;
+
+}
+.submit-btn:hover{
+background-color: rgb(29, 100, 29);
+
+}
