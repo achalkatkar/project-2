@@ -367,3 +367,12 @@ p
    margin: 10px;
   color: white;
   font-size: 15px;
+  
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  
+ }
+ .copyright{
+  margin-top: 20px;
+ }
