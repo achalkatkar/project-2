@@ -15,12 +15,20 @@
 @media screen and (min-width:300px) and (max-width:0px){
 
 }
-.img{
-    height: 150px;
-    width: 100px;
+.img-1{
+    height: 200px;
+    width: 300px;
     position: relative;
 
 }
 .para{
     font-size: 15px;
+    text-align: center;
+}
+.flexbox{
+    height: 180px;
+    width: 150px;
+    background-color: #99ff99;
+    border-radius: 10px;
+    border: 2px green;
 }
