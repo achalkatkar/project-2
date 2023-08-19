@@ -2,25 +2,8 @@
 body{
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
-  background-color: #99ff99;
-}
-
-.slider{
-    height:100px;
-    width: 900px;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-top: 50px;
-  }
-  
-  .slides{
-    width: 500%;
-    height: 500px;
-=======
     box-sizing: border-box;
     font-family: sans-serif, 'Poppins';
->>>>>>> a8e5bc112736f245ecd335c5503766f10340b60c
 
   }
   
@@ -502,4 +485,4 @@ p
 
   }
 }
->>>>>>> a8e5bc112736f245ecd335c5503766f10340b60c
+
