@@ -330,3 +330,13 @@
   color: #24262b;
   background-color: #ffffff;
 }
+.text{
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+}
+input{
+  padding: 20px;
+  font-size: 20px;
+  
