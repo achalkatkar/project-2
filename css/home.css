@@ -1,27 +1,13 @@
-<<<<<<< HEAD
-  .body{
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #a0e87d;
-=======
-.back{
-    background-color: #b3ffb3;
-   
->>>>>>> 4306572796ef83e21b6416523659186c91f3fac0
-  }
-  body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 
-  }
-  
-  .slider{
-    height: 100px;
+body{
+    margin: 0;
+    padding: 0;
+  background-color: #99ff99;
+}
+
+.slider{
+    height:100px;
+    width: 900px;
     border-radius: 10px;
     overflow: hidden;
     margin-top: 50px;
@@ -30,7 +16,7 @@
   .slides{
     width: 500%;
     height: 500px;
-    display: flex;
+
   }
   
   .slides input{
