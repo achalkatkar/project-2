@@ -12,6 +12,11 @@
     border-radius: 30px;
     box-shadow: 2px 2px 10px 10px green;
 }
+.main-img:hover{
+    cursor: pointer;
+    border-radius: 40px;
+    transition: 0.3s;
+}
 @media screen and (min-width:300px) and (max-width:990px){
     .parent{
 
