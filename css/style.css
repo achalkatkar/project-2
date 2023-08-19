@@ -20,6 +20,37 @@ body{
     width: 800px;
     height: 500px;
   }
+
+  @media(max-width: 574px){
+    .slide{
+        width: 40%;
+
+    }
+    .slide img{
+        width: 600px;
+        height: 300px;
+    }
+    .background-container{
+        background-color: #006600;
+        width: 60%;
+        height: 300px;
+    }
+  }
+  @media(max-width: 767px){
+    .slide{
+        width: 40%;
+
+    }
+    .slide img{
+        width: 600px;
+        height: 300px;
+    }
+    .background-container{
+        background-color: #006600;
+        width: 60%;
+        height: 300px;
+    }
+  }
   
   /*css for manual slide navigation*/
   
@@ -449,6 +480,7 @@ input{
   margin-top: 20px;
 
 }
+
 .submit-btn:hover{
 background-color: rgb(29, 100, 29);
 
@@ -478,16 +510,26 @@ p
         margin-bottom: 30px;
 
     }
+    .submit-btn{
+        width: 150px;
+        font-size: 20px;
+
+
+    }
+    .footer-text{
+        width: 150px;
+    }
 }
 @media(max-width: 574px){
   .footer-col{
       width: 100%;
-      
-
   }
 }
 
 .small-text{
     font-size: 20px;
 
+}
+@media(max-width: 574px){
+    
 }
