@@ -1,0 +1,21 @@
+.body {
+    background-color: #99ff99;
+    margin: 0;
+    color: #006600;
+}
+.main-img{
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    display: block;
+    width: 600px;
+}
+@media screen and (min-width:300px) and (max-width:0px){
+
+}
+.img{
+    height: 150px;
+    width: 100px;
+    position: relative;
+
+}
