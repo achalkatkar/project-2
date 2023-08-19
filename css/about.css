@@ -44,11 +44,11 @@
     transition: 0.3s;
 }
 .container:hover{
-    height: 300px;
+    height: 350px;
 }
 .container:hover .content {
     opacity: 1;
-    transform: translateY(-70px);
+    transform: translateY(-50px);
 }
 .parent{
     display: flex;
