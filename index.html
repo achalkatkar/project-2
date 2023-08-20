@@ -8,7 +8,11 @@
     rel="stylesheet" 
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
     crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/home1.css">
+    
+
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     
     
   
@@ -35,7 +39,7 @@
                     <a class="nav-link " href="./pages/Solution.html" target="_blank">Solution</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link " href="#" target="_blank">Contact</a>
+                    <a class="nav-link " href="./pages/contact.html" target="_blank">Contact</a>
                   </li>
 
                 </ul>
@@ -52,9 +56,48 @@
     </div>
 
     <div class="background-container mt-5">
-      <div class="background-img" >
-        <img src="./images/background.jpg" class="slide-img">
-      </div>
+      
+
+        <div class="slider">
+          <div class="slides">
+            <!--radio buttons start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!--radio buttons end-->
+            <!--slide images start-->
+            <div class="slide first">
+              <img src="./images/Background.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="./images/Background2.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="./images/Background3.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="./images/Background4.jpg" alt="">
+            </div>
+            <!--slide images end-->
+            <!--automatic navigation start-->
+            <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+            </div>
+            <!--automatic navigation end-->
+          </div>
+          <!--manual navigation start-->
+          <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+          </div>
+          <!--manual navigation end-->
+        </div>
 
       
 
@@ -62,28 +105,28 @@
 
     <div class="flex-container">
       <div class="flex-circle mt-5">
-        <a href="./pages/air-pollution.html" target="_blank"><img src="./images/air-1.jpeg" class="circle-img"> <span><h1>Air Pollution</h1></span></a>
+        <a href="./pages/air-pollution.html" target="_blank"><img src="./images/air-1.jpeg" class="circle-img"> <span><h1 class="small-text">Air Pollution</h1></span></a>
         
       </div>
 
       <div class="flex-circle mt-5">
-        <a href="./pages/noise-polluton.html" target="_blank"><img src="./images/noise-1.jpeg" class="circle-img"><span><h1>Noise Pollution</h1></span></a>
+        <a href="./pages/noise-polluton.html" target="_blank"><img src="./images/noise-1.jpeg" class="circle-img"><span><h1 class="small-text">Noise Pollution</h1></span></a>
       </div>
 
       <div class="flex-circle mt-5">
-        <a href="./pages/plastic-pollution.html" target="_blank"><img src="./images/plastic-1.jpg" class="circle-img"><span><h1>Platic Pollution</h1></span></a>
+        <a href="./pages/plastic-pollution.html" target="_blank"><img src="./images/plastic-1.jpg" class="circle-img"><span><h1 class="small-text">Platic Pollution</h1></span></a>
       </div>
 
       <div class="flex-circle mt-5">
-        <a href="./pages/air pollution.html" target="_blank"><img src="./images/water-pollution.jpeg" class="circle-img"><span><h1>Water Pollution</h1></span></a>
+        <a href="./pages/air pollution.html" target="_blank"><img src="./images/water-pollution.jpeg" class="circle-img"><span><h1 class="small-text">Water Pollution</h1></span></a>
       </div>
 
       <div class="flex-circle mt-5">
-        <a href="./pages/air pollution.html" target="_blank"><img src="./images/soil-1.jpeg" class="circle-img"><span><h1>Soil Pollution</h1></span></a>
+        <a href="./pages/air pollution.html" target="_blank"><img src="./images/soil-1.jpeg" class="circle-img"><span><h1 class="small-text">Soil Pollution</h1></span></a>
       </div>
 
       <div class="flex-circle mt-5">
-        <a href="./pages/air pollution.html" target="_blank"><img src="./images/thermal.jpg" class="circle-img"><span><h1>Thermal Pollution</h1></span></a>
+        <a href="./pages/air pollution.html" target="_blank"><img src="./images/thermal.jpg" class="circle-img"><span><h1 class="small-text">Thermal Pollution</h1></span></a>
       </div>
 
     </div>
@@ -94,13 +137,13 @@
       </div>
    
 
-    <p class=" text mt-3 p-5 m-3 pt-5 fs-3">The Enviromnent is the surrounding of an organism. The environmnet in which an organism lives is made 
+    <p class="pollution-text mt-3 p-5 m-3 pt-5 fs-4">The Enviromnent is the surrounding of an organism. The environmnet in which an organism lives is made 
       up of various component like air, water, soil, plastic, etc. These component are found in fixed proportions to create 
       a harmonious balance in the environment for the organism to live in. Any kind of undesirable and unwanted changes
        in the proportions of these components can be termed as pollution.
     </p>
 
-    <!--<marquee behavior="scroll" direction="left" scrollamount="25"> -->
+    <marquee behavior="scroll" direction="left" scrollamount="20"> 
       <div class=" marque m-3 p-3 mt-5">
         <div class="flex-box m-3 mt-3 p-3"><img src="./images/air-m-1.jpeg" class="marque-img"></div>
         <div class="flex-box m-3 mt-3 p-3 "><img src="./images/air-m-2.jpeg" class="marque-img"></div>
@@ -108,6 +151,65 @@
   
       </div>
     </marquee>
+
+
+
+    <div class="footer">
+      <div class="footer-container">
+          <div class="row">
+
+            <div class="footer-col">
+              <h4>company</h4>
+              <ul>
+                  <li><a href="#">about us</a></li>
+                  <li><a href="#">our services</a></li>
+                  <li><a href="#">privacy policy</a></li>
+                  <li><a href="#">partners</a></li>
+                  <li><a href="#">careers</a></li>
+              </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>support</h4>
+            <ul>
+                <li><a href="#">help center</a></li>
+                <li><a href="#">term of services</a></li>
+                <li><a href="#">legal</a></li>
+                <li><a href="#">privacy policy</a></li>
+                <li><a href="#">status</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-link">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact us </h4>
+        <input type="email" class="footer-text" placeholder="email">
+        <br/>
+        <button type="submit" class="submit-btn" onclick="message()">submit</button>
+        
+    </div>
+
+</div>
+
+</div>
+<hr class="horizontal-row">
+<p class="copyright">© 2021 Mozaik. All rights reserved.<br/>
+
+    Privacy policy<br/>
+    Terms and conditions</p>
+
+</div>
+
+
 
     
       
@@ -119,9 +221,26 @@
      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 
      crossorigin="anonymous"
      >
-        
+
+    
        
     
+    
+    </script>
+    <script>
+      function message()
+     {
+      alert("your email is send.");
+     }
+
+     var counter = 1;
+      setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+          counter = 1;
+        }
+      }, 5000);
     
     </script>
   
