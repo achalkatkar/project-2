@@ -71,8 +71,6 @@
 .info{
     font-size: 20px;
 }
-.main{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.team-images{
+    display: inline;
 }
