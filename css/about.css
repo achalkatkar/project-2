@@ -71,3 +71,8 @@
 .info{
     font-size: 20px;
 }
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
