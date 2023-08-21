@@ -10,12 +10,14 @@
     display: block;
     width: 600px;
     border-radius: 30px;
-    box-shadow: 2px 2px 10px 10px green;
+    border-radius: 10px 50px 10px 50px;
+    box-shadow: 2px 5px 8px 10px green;
 }
 .main-img:hover{
     cursor: pointer;
-    border-radius: 40px;
+    border-radius: 10px 50px 10px 50px;
     transition: 0.3s;
+    transform: translateY(-5px);
 }
 @media screen and (min-width:300px) and (max-width:990px){
     .parent{
@@ -71,8 +73,28 @@
 .info{
     font-size: 20px;
 }
-.main{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.team-images{
+    display: inline;
+}
+.small-symbol{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.small-symbol:hover{
+    cursor: pointer;
+    transform: 0.3s;
+    transform: translateY(-8px);
+}
+.team-members{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+.team-members:hover{
+    cursor: pointer;
+    border-radius: 10px 50px 10px 50px;
+}
+.name{
+    font-size: 20px;
 }
