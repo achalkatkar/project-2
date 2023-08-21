@@ -26,7 +26,7 @@
           <input type="text" placeholder="Enter Your Email-id:" class="text"/></br>
           <input type="text" placeholder="Enter Your Oranisation:" class="text"/></br>
           <input type="text" placeholder="Enter Your Massage (Optional):" class="text textarea"/></br>
-          <button type="button" class="btn btn-success m-4 ms-5">Submit</button>
+          <button type="button" class="btn btn-success m-4 ms-5" onclick="submit()">Submit</button>
         </div>
         
         <div class="col m-3">
@@ -45,6 +45,13 @@
         </div>
       </div>
     </div>
+    <script>
+      function submit()
+      {
+        alert('Submitted')
+      }
+      submit();
+    </script>
     
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
