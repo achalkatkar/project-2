@@ -11,9 +11,16 @@
 }
 .text {
   height: 50px;
-  width: 280px;
-  border: 2px solid green;
+  width: 350px;
   margin-top: 20px;
+  margin-left: 42px;
   border-radius: 10px;
   background-color: #99ff99;
+  color: #000;
+  text-align: left;
+  border: 2px solid green;
+  padding-left: 5px;
+}
+.textarea{
+  height: 100px;
 }
