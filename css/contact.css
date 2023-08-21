@@ -16,11 +16,15 @@
   margin-left: 42px;
   border-radius: 10px;
   background-color: #99ff99;
-  color: #000;
+  color: azure;
   text-align: left;
   border: 2px solid green;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 .textarea{
   height: 100px;
+}
+.button :hover{
+  cursor: pointer;
+  border-radius: 50%;
 }
