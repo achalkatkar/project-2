@@ -1,12 +1,14 @@
 .main{
-  background-color: #41ad41;
+  background-color: #f2eaea;
   width: 100%;
-  height: 550px;
+  height: 580px;
+  border-radius: 20px;
 }
 .body-color{
   background-color: #d9d9d9;
   margin: 0;
   color: black;
+  padding: 0;
 }
 .text {
   height: 50px;
@@ -14,17 +16,12 @@
   margin-top: 20px;
   margin-left: 42px;
   border-radius: 10px;
-  background-color: #99ff99;
   text-align: left;
-  border: 2px solid green;
   padding-left: 10px;
+  font-size: 18px;
 }
 .textarea{
   height: 100px;
-}
-.button :hover{
-  cursor: pointer;
-  border-radius: 50%;
 }
 .para{
   margin-left: 35px;
@@ -38,12 +35,29 @@
   margin: 0;
 }
 .small-symbol{
-  height: 35px;
-  width: 35px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
 }
 .small-symbol:hover{
   cursor: pointer;
   transform: 0.3s;
   transform: translateY(-8px);
+}
+.btn-size{
+  height: 50px;
+  width: 170px;
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 130px;
+  border-radius: 10px;
+  background-color: bisque;
+}
+.btn-size :hover{
+  cursor: pointer;
+  border-radius: 50%;
+}
+.heading{
+  font-size: 35px;
 }
