@@ -11,7 +11,20 @@ h1{
 }
 .container{
     background-color: black;
-    color: greenyellow;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 100px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background: #2C3333;
+    
+    color: #a0e87d;
+}
+.card-info{
+    text-align: center;
+}
+.card{
+    border-radius: 80px;
+}
+.card-div{
+    border-radius: 82px;
 }
