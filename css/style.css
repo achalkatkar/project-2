@@ -136,15 +136,17 @@
   }
   
   .container-fluid{
-    background-color: #96129d;
+    color: white;
+    background-color: #ca94cd;
   }
-   .nav{
+   nav{
     margin: 0;
-    padding: 0;
-    background-color: #420830;
+    padding: 0; 
+    background-color: #604252;
     height: 60px;
     font-size: 20px;
   }
+
  
   .logo
   {
@@ -159,8 +161,8 @@
   }
   .pollution{
     font-size: 70px;
-    color: #420533;
-    text-shadow: 3px 4px 5px black;
+    color: #6f0b36;
+    text-shadow: 2px 3px 3px black;
 
   }
   @media screen and (min-width:500px) and (max-width: 990px){
