@@ -57,3 +57,9 @@ p{
     margin-top: 20px;
     color: #a0e87d;
 }
+@media screen and (min-width:726px) and (max-width: 956px){
+    .heading{
+        font-size: 40px;
+        
+    }
+}

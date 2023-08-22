@@ -8,12 +8,22 @@ body{
     text-shadow: 3px 4px 5px black;
 }
 
+@media screen and (min-width:726px) and (max-width: 956px){
+    .heading{
+        font-size: 40px;
+        
+    }
+}
 .sub-container{
     margin-top: 100px;
 }
 .sub-heading{
     text-align: center;
     font-size: 60px;
+}
+.container{
+    margin-left: 100px;
+    margin-right: auto;
 }
 
 .card{

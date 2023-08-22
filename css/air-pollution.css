@@ -8,8 +8,17 @@ body{
     text-shadow: 3px 4px 5px black;
 }
 
+@media screen and (min-width:726px) and (max-width: 956px){
+    .heading{
+        font-size: 40px;
+        
+    }
+}
 
-
+.container{
+    margin-left: 100px;
+    margin-right: auto;
+}
 .sub-container{
     margin: 10px;
     padding: 5px;  
