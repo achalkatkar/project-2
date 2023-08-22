@@ -7,24 +7,42 @@ body{
     color:#006600 ;
     text-shadow: 3px 4px 5px black;
 }
+.container{
+    height: 600px;
+    width:1000px;
+    background :linear-gradient(green,black);
+    margin-top: 50px;
+    background-image: url(../images/noise-background.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:990px 590px ;
+    border: black solid 3px;
 
-@media screen and (min-width:726px) and (max-width: 956px){
-    .heading{
-        font-size: 40px;
-        
-    }
 }
-
 .sub-heading{
     text-align: center;
     font-size: 60px;
 }
-.container{
-    margin-left: 100px;
-    margin-right: auto;
+
+
+@media screen and (min-width:726px) and (max-width: 956px){
+    .container{
+        height: 400px;
+        width: 70%;
+        background-size:530px 390px ;
+
+    }
+
 }
+@media screen and (min-width:545px) and (max-width: 725px)
+{
+    .container{
+        height: 233px;
+        width: 68%;
+        background-size:400px 230px ;
 
-
+    }
+}
 .sub-container{
     margin: 10px;
     padding: 5px;  
@@ -37,10 +55,7 @@ body{
     width: 100%;
     
 }
-.card-info{
-    height: 300px;
-    width: 400px;
-    font-size: 20px;
-    text-align: center;
-
+.text-start{
+    margin-left: 18px;
+    margin-top: 10px;
 }
