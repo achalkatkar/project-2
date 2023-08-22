@@ -1,5 +1,5 @@
 body{
-    background-color: #b3ffb3;
+    background-color: #d9d9d9;
 }
 .heading{
     text-align: center;
@@ -7,17 +7,12 @@ body{
     color:#006600 ;
     text-shadow: 3px 4px 5px black;
 }
-.container{
-    height: 600px;
-    width:1000px;
-    background :linear-gradient(green,black);
-    margin-top: 50px;
-    background-image: url(../images/plastic-pol-background.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:990px 590px ;
-    border: black solid 3px;
 
+@media screen and (min-width:726px) and (max-width: 956px){
+    .heading{
+        font-size: 40px;
+        
+    }
 }
 .sub-container{
     margin-top: 100px;
@@ -26,35 +21,23 @@ body{
     text-align: center;
     font-size: 60px;
 }
-
-
-@media screen and (min-width:726px) and (max-width: 956px){
-    .container{
-        height: 400px;
-        width: 70%;
-        background-size:530px 390px ;
-
-    }
-
+.container{
+    margin-left: 100px;
+    margin-right: auto;
 }
-@media screen and (min-width:545px) and (max-width: 725px)
-{
-    .container{
-        height: 233px;
-        width: 68%;
-        background-size:400px 230px ;
 
-    }
-}
-.sub-container{
-    margin: 10px;
-    padding: 5px;  
-
-}
 .card{
+    margin-left: 20px;
     border: solid 3px green ;
 }
 .card-img{
     width: 100%;
+    cursor: pointer;
     
+}
+.card-info{
+    height: 300px;
+    width: 400px;
+    font-size: 20px;
+
 }
