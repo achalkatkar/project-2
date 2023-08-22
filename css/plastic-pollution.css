@@ -56,5 +56,12 @@ body{
 }
 .card-img{
     width: 100%;
+    cursor: pointer;
     
+}
+.card-info{
+    height: 300px;
+    width: 400px;
+    font-size: 20px;
+
 }

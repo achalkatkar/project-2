@@ -7,67 +7,19 @@ body{
     color:#006600 ;
     text-shadow: 3px 4px 5px black;
 }
-.container{
-    height: 600px;
-    width:1000px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
-
-}
-.image-content{
-    height: 300px;
-    width: 450px;
-}
-.image-content img{
-    width: 100%;
-    height: 350px;
-    border-radius: 20px;
-    box-shadow: 3px 5px 7px black;
-}
-.image-info{
-    height: 300px;
-    width: 400px;
-    background-color: yellow;
-    align-items: center;
-    
-}
-.sub-heading{
-    text-align: center;
-    font-size: 60px;
-}
 
 
-@media screen and (min-width:726px) and (max-width: 956px){
-    .container{
-        height: 400px;
-        width: 70%;
-        background-size:530px 390px ;
 
-    }
-    .image-content{
-        height: 180px;
-        width: 250px;
-    }
-    .image-content img{
-        width: 100%;
-        height: 200px;
-    }
-
-
-}
-@media screen and (min-width:545px) and (max-width: 725px)
-{
-    .container{
-        height: 233px;
-        width: 68%;
-        background-size:400px 230px ;
-
-    }
-}
 .sub-container{
     margin: 10px;
     padding: 5px;  
+
+}
+.card-info{
+    height: 300px;
+    width: 400px;
+    font-size: 20px;
+    text-align: center;
 
 }
 .card{
@@ -75,5 +27,6 @@ body{
 }
 .card-img{
     width: 100%;
+    cursor: pointer;
     
 }
