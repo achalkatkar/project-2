@@ -90,6 +90,7 @@
     border-radius: 50%;
     height: 120px;
     width: 120px;
+    object-fit: cover;
 }
 .team-members:hover{
     cursor: pointer;
