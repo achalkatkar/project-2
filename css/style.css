@@ -67,7 +67,7 @@
   }
   
   .manual-btn{
-    border: 2px solid #a0e87d;
+    border: 2px solid #420533;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -79,7 +79,7 @@
   }
   
   .manual-btn:hover{
-    background: #a0e87d;
+    background: #4a0a36;
   }
   
   #radio1:checked ~ .first{
@@ -135,17 +135,22 @@
     background: #a0e87d;
   }
   
-   .nav{
+  .container-fluid{
+    color: white;
+    background-color: #ca94cd;
+  }
+   nav{
     margin: 0;
-    padding: 0;
-    background-color: green;
+    padding: 0; 
+    background-color: #604252;
     height: 60px;
     font-size: 20px;
   }
+
  
   .logo
   {
-    height: 90px;
+    height: 85px;
     border-radius: 50%;
     box-shadow: 4px 6px 8px black;
   }
@@ -156,8 +161,8 @@
   }
   .pollution{
     font-size: 70px;
-    color: #006600;
-    text-shadow: 3px 4px 5px black;
+    color: #6f0b36;
+    text-shadow: 2px 3px 3px black;
 
   }
   @media screen and (min-width:500px) and (max-width: 990px){
@@ -213,11 +218,11 @@
         height: 170px;
         width: 170px;
         border-radius: 50%;
-        box-shadow: 5px 6px 8px green;
+        box-shadow: 5px 6px 8px rgb(164, 150, 81);
       }
       h1{
         font-size: 20px;
-        color: #284d00;;
+        color: #431b3c;;
       }
       a{
         text-decoration: none;
@@ -225,7 +230,7 @@
       .pollution-text{
         
         text-align: center;
-        color: #006600;
+        color: #420830;
         font-size: 20px;
       }
       .marque{
@@ -295,7 +300,7 @@
         width: 100%;
         display: flex;
         justify-content: right;
-        background-color: #99ffbb;
+        background-color: #ceabbd;
       }
       .quote-box{
         height:350px;
@@ -314,7 +319,7 @@
       }
       .qoute-img:hover{
         border-radius: 30px;
-        box-shadow: 4px 8px 10px green;
+        box-shadow: 4px 8px 10px rgb(211, 78, 178);
 
       }
       .img-min{
@@ -357,7 +362,7 @@
       }
 
       .h2{
-        background: linear-gradient(#00994d,#99ff99,#66ff66,#00994d);
+        background: linear-gradient(#958561,#bacd71,#b0b4ac,#b0ac8d);
         
         height: 100px;
         margin-top: 100px;
@@ -374,7 +379,7 @@
         height: 450px;
         margin-left: auto;
         margin-right: auto;
-        box-shadow: 4px 7px 15px rgb(5, 83, 5);
+        box-shadow: 4px 7px 15px rgb(137, 49, 105);
         margin-bottom: 50px;
       }
 
@@ -387,7 +392,7 @@
         
       /* add footer*/
       .footer{
-        background-color: rgb(5, 26, 5);
+        background-color: rgb(28, 9, 15);
         padding: 70px 0;
         line-height: 1.5;
         margin-bottom: 10px;
@@ -421,7 +426,7 @@
   position: absolute;
   left: 0;
   bottom:  -10px;
-  background-color: #72d917;
+  background-color: #bc0b72;
   height: 2px;
   box-sizing: border-box;
   width: 50px;
@@ -478,7 +483,7 @@ input{
   border-radius: 30px;
   font-size: 20px;
   margin: 10px;
-  background-color: rgb(71, 219, 71);
+  background-color: rgb(155, 19, 73);
   border: none;
   color: #fff;
   margin-top: 20px;
@@ -486,7 +491,7 @@ input{
 }
 
 .submit-btn:hover{
-background-color: rgb(29, 100, 29);
+background-color: rgb(94, 7, 7);
 
 }
 .horizontal-row{
