@@ -59,3 +59,23 @@ body{
     margin-left: 18px;
     margin-top: 10px;
 }
+
+/* side button  */
+button{
+    border: none;
+    border-radius: 50%;
+}
+button:hover{
+    box-shadow: 3px  4px 5px rgb(204, 94, 112);
+}
+.btn{
+    text-align: right;
+}
+.side-btn{
+}
+.arrow-img{
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 3px;
+}
