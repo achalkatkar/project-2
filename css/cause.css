@@ -261,3 +261,10 @@ h3 {
     height: 60px;
     font-size: 20px;
   }
+  nav ul li a {
+	color: black;
+	font-size: 20px;
+  }
+  nav ul li a:hover{
+	color: black;
+  }
