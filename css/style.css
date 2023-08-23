@@ -120,19 +120,19 @@
   }
   
   #radio1:checked ~ .navigation-auto .auto-btn1{
-    background: #a0e87d;
+    background: #880265;
   }
   
   #radio2:checked ~ .navigation-auto .auto-btn2{
-    background: #a0e87d;
+    background: #880265;
   }
   
   #radio3:checked ~ .navigation-auto .auto-btn3{
-    background: #a0e87d;
+    background: #880265;
   }
   
   #radio4:checked ~ .navigation-auto .auto-btn4{
-    background: #a0e87d;
+    background: #880265;
   }
   
   .container-fluid{
