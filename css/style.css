@@ -226,6 +226,7 @@
       }
       a{
         text-decoration: none;
+        color: #000;
       }
       .pollution-text{
         
@@ -369,7 +370,7 @@
         
       }
       .q-text {
-        color: #006600 ;
+        color: #480233 ;
         text-align: center;
         font-size: px;
       }
