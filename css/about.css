@@ -11,7 +11,7 @@
     width: 600px;
     border-radius: 30px;
     border-radius: 10px 50px 10px 50px;
-    box-shadow: 2px 5px 8px 10px green;
+    box-shadow: 2px 5px 8px 10px rgb(113, 118, 113);
 }
 .main-img:hover{
     cursor: pointer;
