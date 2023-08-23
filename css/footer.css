@@ -1,0 +1,159 @@
+/* navbar*/
+.container-fluid{
+    color: white;
+    background-color: #ca94cd;
+  }
+   nav{
+    margin: 0;
+    padding: 0; 
+    background-color: #604252;
+    height: 60px;
+    font-size: 20px;
+  }
+
+/* add footer*/
+.footer{
+    background-color: rgb(28, 9, 15);
+    padding: 70px 0;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.footer-container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer-col{
+width: 25%;
+padding: 0 15px;
+}
+.footer-col h4{
+font-size: 18px;
+color: #ffffff;
+text-transform: capitalize;
+margin-bottom: 35px;
+font-weight: 500;
+position: relative;
+margin-left: 30px;
+}
+.footer-col h4::before{
+content: '';
+position: absolute;
+left: 0;
+bottom:  -10px;
+background-color: #bc0b72;
+height: 2px;
+box-sizing: border-box;
+width: 50px;
+}
+.footer-col ul li:not(:last-child){
+margin-bottom: 10px;
+}
+.footer-col ul li a{
+font-size: 16px;
+text-transform: capitalize;
+text-decoration: none;
+font-weight: 300;
+color: #bbbbbb;
+display: block;
+transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+
+color: #ffffff;
+padding-left: 10px;
+}
+.footer-col .social-link a{
+display: inline-block;
+height: 40px;
+width: 40px;
+background-color: rgba(255, 2555, 255,0.2);
+margin: 0 10px 0 0;
+text-align: center;
+line-height: 40px;
+border-radius: 50%;
+color: #ffffff;
+transition: all 0.5s ease;
+}
+.footer-col .social-link a:hover{
+color: #24262b;
+background-color: #ffffff;
+}
+.footer-text{
+width: 250px;
+height: 50px;
+border-radius: 30px;
+border: none;
+}
+input{
+padding: 20px;
+font-size: 20px;
+font-size: 20px;
+margin: 10px;
+}
+.submit-btn
+{
+width: 250px;
+height: 50px;
+border-radius: 30px;
+font-size: 20px;
+margin: 10px;
+background-color: rgb(155, 19, 73);
+border: none;
+color: #fff;
+margin-top: 20px;
+
+}
+.submit-btn:hover{
+background-color: rgb(94, 7, 7);
+
+}
+.horizontal-row{
+margin-top: 40px;
+color: white ;
+}
+p
+{
+margin: 10px;
+color: white;
+font-size: 15px;
+
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+
+}
+.copyright{
+margin-top: 20px;
+}
+/* responsive */
+@media(max-width: 767px){
+.footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+
+}
+.submit-btn{
+    width: 150px;
+    font-size: 20px;
+}
+.footer-text{
+    width: 150px;
+}
+}
+@media(max-width: 574px){
+.footer-col{
+  width: 100%;
+}
+}
+
+.small-text{
+font-size: 20px;
+
+}

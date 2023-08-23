@@ -66,3 +66,16 @@
 .heading{
   font-size: 35px;
 }
+
+/* navbar*/
+.container-fluid{
+  color: white;
+  background-color: #ca94cd;
+}
+ nav{
+  margin: 0;
+  padding: 0; 
+  background-color: #604252;
+  height: 60px;
+  font-size: 20px;
+}
