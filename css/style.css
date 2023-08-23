@@ -490,7 +490,6 @@ input{
   margin-top: 20px;
 
 }
-
 .submit-btn:hover{
 background-color: rgb(94, 7, 7);
 
@@ -523,8 +522,6 @@ p
     .submit-btn{
         width: 150px;
         font-size: 20px;
-
-
     }
     .footer-text{
         width: 150px;
@@ -539,7 +536,4 @@ p
 .small-text{
     font-size: 20px;
 
-}
-@media(max-width: 574px){
-    
 }

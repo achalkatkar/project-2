@@ -7,12 +7,12 @@ body{
 h1{
         text-shadow: 3px 4px 5px black;
         font-family: 'Roboto', sans-serif;
-        color: #006600;
+        color: #4f0213;
         text-align: center;
         margin-top: 50px;
         margin-bottom: 50px;
         height: 100px;
-        font-size: 63px;
+        font-size: 40px;
         font-weight: bold; 
 }
 .container{
@@ -35,4 +35,7 @@ h1{
 }
 p{
     font-size: 22px;
+}
+.heading-text{
+    text-align: center;
 }

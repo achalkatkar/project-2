@@ -3,8 +3,8 @@ body{
 }
 .heading{
     text-align: center;
-    font-size: 60px;
-    color:#006600 ;
+    font-size: 60px; 
+    color:#3d032e ;
     text-shadow: 3px 4px 5px black;
 }
 .container{
@@ -12,7 +12,7 @@ body{
     width:1000px;
     background :linear-gradient(green,black);
     margin-top: 50px;
-    background-image: url(../images/air_pollution-background.png);
+    background-image: url(../images/plastic-pol-background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size:990px 590px ;
