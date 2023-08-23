@@ -103,12 +103,19 @@
 /* navbar*/
 .container-fluid{
     color: white;
-    background-color: #ca94cd;
+    background-color: ;
   }
    nav{
     margin: 0;
     padding: 0; 
-    background-color: #604252;
+    background-color: #b50f65;
     height: 60px;
     font-size: 20px;
+  }
+  nav ul li a {
+	color: black;
+	font-size: 23px;
+  }
+  nav ul li a:hover{
+	color: black;
   }
